@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Dancing+Script&family=Pacifico&family=Satisfy&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assests/css/style.css">
+    <link rel="icon" href="./assests/img/logo.png">
+    <title>BKT Pet Store | Buy Pet Food Online</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="#" class="nav__logo">
+                    <img src="./assests/img/logo.png" alt="logo">
+                    <span class="nav_logo_name">BKT PET STORE</span>
+                </a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bi bi-list nav__toggle-menu"></i>
+                    <i class="bi bi-x nav__toggle-close"></i>
+                </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Dogs <i class="bi bi-chevron-down dropdown__arrow"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+
+                                    <span class="dropdown__title">Dog Food</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Dry Food</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Wet Food</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Premium Food</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Vegetarian Food</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+
+
+                                    <span class="dropdown__title">Treats</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Biscuit & Cookies</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Dental Treats</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Soft & Chewy Treats</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+
+
+                                    <span class="dropdown__title">Supplies</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Toys</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Bedding</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Bowls $ Feeders</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Grooming</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+                                    <span class="dropdown__title">Accessories</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Bows & Bandanas</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Collar & Leashes</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Harnesses</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Sweaters , Raincoat & Shoes</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Cats <i class="bi bi-chevron-down dropdown__arrow"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+
+
+                                    <span class="dropdown__title">Cat Food & Treats</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Dry Food</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Wet Food</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Treats</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+
+
+                                    <span class="dropdown__title">Cat Litter & Accessories</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Cat Litter</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Cat Litter Trays</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Cleaners & Deordorisers</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+
+
+                                    <span class="dropdown__title">Cat Supplies</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Toys</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Dinning Accessories</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Cat Grooming</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Cat Bedding</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown__group">
+
+
+                                    <span class="dropdown__title">Cat Accessories</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Cat Collars</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Cat Harnesses & Leashes</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            Fish, Turtles & Birds <i class="bi bi-chevron-down dropdown__arrow"></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+
+
+                                    <span class="dropdown__title">Fish Food</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Pellets</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Flakes</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Sticks</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Worms</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="dropdown__group">
+                                    <span class="dropdown__title">Turtles Food</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Turtles Food, Vitamins & Supplements</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="dropdown__group">
+                                    <span class="dropdown__title">Birds Food</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Food</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Toys</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Treats</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="dropdown__link">Vitamins & Supplements</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="dropdown__item">
+                        <div class="nav__link dropdown__button">
+                            <i class="bi bi-telephone-fill"> Contact Us</i></i>
+                        </div>
+
+                        <div class="dropdown__container">
+                            <div class="dropdown__content">
+                                <div class="dropdown__group">
+
+
+                                    <span class="dropdown__title">Everyday 9 AM to 9 PM</span>
+
+                                    <ul class="dropdown__list">
+                                        <li>
+                                            <a href="#" class="dropdown__link">Contact us</a>
+                                        </li>
+                                        <li>
+                                            <a href="tel:+919651764530" class="nav__link"><i
+                                                    class="bi bi-telephone-fill"></i> &nbsp; +919651764530</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://wa.me/9651764530" class="nav__link"><i
+                                                    class="bi bi-whatsapp"></i> &nbsp; +919651764530</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="/assests/img/White Pet Shop Facebook Cover.png" style="width:100%">
+            <div class="text">Drools , Pure pet , Royal Canin , Pedigree and other Brand Food Awailable</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="/assests/img/White Pet Shop Facebook Cover3.png" style="width:100%">
+            <div class="text">Upto 10% - 15% discount Every Product</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="/assests/img/White Pet Shop Facebook Covere.png" style="width:100%">
+            <div class="text">Pet Care Center</div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <div class="foodsec1">
+        <h1>Top Picks For Your Pet</h1>
+        <div class="pickspet">
+            <a class="picks" href="#"><img src="/assests/img/dogwithfood.jpg" alt="">Dry Dog Food</a>
+            <a class="picks" href="#"><img src="/assests/img/catfood.jpg" alt="">Dry Cat Food</a>
+            <a class="picks" href="#"><img src="/assests/img/cattreats.jpg" alt="">Cat Treats</a>
+            <a class="picks" href="#"><img src="/assests/img/wetcat.jpg" alt="">Wet Cat Food</a>
+            <a class="picks" href="#"><img src="/assests/img/dogtreat.jpg" alt="">Dog Treats</a>
+        </div>
+    </div>
+    <div class="pickspet">
+        <a href="#" class="essential"><img src="./assests/img/Puppy-essentials.jpg" alt="Puppy Essential"></a>
+        <a href="#" class="essential"><img src="./assests/img/kitten.jpg" alt="Kitten Essential"></a>
+    </div>
+
+    <div class="shopofferhead">
+        <h1>Visit Shop and Get Offer</h1>
+        <div class="shopoffer">
+            <div class="offers"><img src="./assests/img/disc1.jpg" alt="Discount"></div>
+            <div class="offers"><img src="./assests/img/disc2.jpg" alt="Discount"></div>
+            <div class="offers"><img src="./assests/img/disc3.jpg" alt="Discount"></div>
+            <div class="offers"><img src="./assests/img/disc4.jpg" alt="Discount"></div>
+        </div>
+    </div>
+
+    <div class="shopofferhead">
+        <h1>Shop by Pets</h1>
+        <div class="shopoffer">
+            <a href="#" class="shopbypet"><img src="./assests/img/dogg.jpg" alt="shopbypets"><br />Dog</a>
+            <a href="#" class="shopbypet"><img src="./assests/img/cat2.jpeg" alt="shopbypets"><br />Cat</a>
+            <a href="#" class="shopbypet"><img src="./assests/img/rabbit.png" alt="shopbypets"><br />Small Animal</a>
+            <a href="#" class="shopbypet"><img src="./assests/img/parrot.png" alt="shopbypets"><br />Birds</a>
+        </div>
+    </div>
+
+    <div class="shopofferhead">
+        <h1>Top Catogries For Your Dog</h1>
+        <div class="shopoffer">
+            <a href="#" class="shopbypet"><img src="./assests/img/Picsart_23-09-25_10-36-14-784.jpg" alt="shopbypets"
+                    id="dogoffer"><br />Accessories</a>
+            <a href="#" class="shopbypet"><img src="./assests/img/Picsart_23-09-25_10-37-05-819.jpg" alt="shopbypets"
+                    id="dogoffer"><br />Food</a>
+            <a href="#" class="shopbypet"><img src="./assests/img/Picsart_23-09-25_10-37-46-305.jpg" alt="shopbypets"
+                    id="dogoffer"><br />Toys</a>
+            <a href="#" class="shopbypet"><img src="./assests/img/Picsart_23-09-25_10-38-56-716.jpg" alt="shopbypets"
+                    id="dogoffer"><br />Treats</a>
+            <a href="#" class="shopbypet"><img src="./assests/img/Picsart_23-09-25_10-39-29-037.jpg" alt="shopbypets"
+                    id="dogoffer"><br />Beds</a>
+        </div>
+    </div>
+    <div class="foodsec1">
+        <h1 id="dog_sec">Top Categories For Your Dog</h1>
+        <div class="pickspet">
+            <a class="picks" href="#"><img src="/assests/img/d1.jpg" alt="">Dog Food</a>
+            <a class="picks" href="#"><img src="/assests/img/d2.jpg" alt="">Dog Grooming</a>
+            <a class="picks" href="#"><img src="/assests/img/d3.jpg" alt="">Dog Toys</a>
+            <a class="picks" href="#"><img src="/assests/img/d4.jpg" alt="">Dog Accessories</a>
+            <a class="picks" href="#"><img src="/assests/img/d5.jpg" alt="">Dog Supplements</a>
+        </div>
+    </div>
+
+    <div class="company">
+        <h1>
+            Featured Brands
+        </h1>
+        <div class="companyimg">
+            <div class="grid-item">
+                <a href="https://www.petsy.online/pages/royal-canin-home-page" target="_blank"
+                    aria-label="https://www.petsy.online/pages/royal-canin-home-page">
+                    <img src="//www.petsy.online/cdn/shop/files/2_144x144_0b0189a3-1110-41cb-aea8-619d098decad.png?v=1644491180&amp;width=144"
+                        alt="" height="50" loading="lazy">
+                </a>
+            </div>
+
+            <div class="grid-item">
+                <a href="https://www.petsy.online/collections/sheba" target="_blank"
+                    aria-label="https://www.petsy.online/collections/sheba">
+                    <img src="//www.petsy.online/cdn/shop/files/1_144x144_c2c2fcee-7ddb-46b2-a9cd-9b10e6dc247d.png?v=1644491142&amp;width=144"
+                        alt="" height="50" loading="lazy">
+                </a>
+            </div>
+
+            <div class="grid-item">
+                <a href="https://www.petsy.online/collections/whiskas" target="_blank"
+                    aria-label="https://www.petsy.online/collections/whiskas">
+                    <img src="//www.petsy.online/cdn/shop/files/Untitled_design_-_2022-02-04T123803.685_144x144_1d0637fd-a52a-4aa8-94e3-91d30634f76a.png?v=1644491226&amp;width=144"
+                        alt="" height="50" loading="lazy">
+                </a>
+            </div>
+
+            <div class="grid-item">
+                <a href="https://www.petsy.online/collections/orijen" target="_blank"
+                    aria-label="https://www.petsy.online/collections/orijen">
+                    <img src="//www.petsy.online/cdn/shop/files/6_7aa0858f-7285-4eb5-a52b-308d0873a4a5.png?v=1646297710&amp;width=320"
+                        alt="" height="50" loading="lazy">
+                </a>
+            </div>
+
+            <div class="grid-item">
+                <a href="https://www.petsy.online/collections/pedigree" target="_blank"
+                    aria-label="https://www.petsy.online/collections/pedigree">
+                    <img src="//www.petsy.online/cdn/shop/files/Pedigree-new.png?v=1675942894&amp;width=144" alt=""
+                        height="50" loading="lazy">
+                </a>
+            </div>
+
+            <div class="grid-item">
+                <a href="https://www.petsy.online/collections/drools" target="_blank"
+                    aria-label="https://www.petsy.online/collections/drools">
+                    <img src="//www.petsy.online/cdn/shop/files/Drools.png?v=1665053381&amp;width=320" alt=""
+                        height="50" loading="lazy">
+                </a>
+            </div>
+
+            <div class="grid-item">
+                <a href="https://www.petsy.online/pages/furpro" target="_blank"
+                    aria-label="https://www.petsy.online/pages/furpro">
+                    <img src="//www.petsy.online/cdn/shop/files/furpro.jpg?v=1711528870&amp;width=293" alt=""
+                        height="50" loading="lazy">
+                </a>
+            </div>
+
+            <div class="grid-item">
+                <a href="https://www.petsy.online/collections/chuckit" target="_blank"
+                    aria-label="https://www.petsy.online/collections/chuckit">
+                    <img src="//www.petsy.online/cdn/shop/files/2_439d8bc4-00b0-41b9-acca-b58883f2b3f8.png?v=1646297589&amp;width=320"
+                        alt="" height="50" loading="lazy">
+                </a>
+            </div>
+
+            <div class="grid-item">
+                <a href="https://www.petsy.online/collections/happy-puppy-organics" target="_blank"
+                    aria-label="https://www.petsy.online/collections/happy-puppy-organics">
+                    <img src="//www.petsy.online/cdn/shop/files/Untitled_design_-_2022-02-04T123511.521_144x144_8bed7d22-f075-453d-8e65-bd6abb047454.png?v=1644491154&amp;width=144"
+                        alt="" height="50" loading="lazy">
+                </a>
+            </div>
+
+            <div class="grid-item">
+                <a href="https://www.petsy.online/collections/fofos" target="_blank"
+                    aria-label="https://www.petsy.online/collections/fofos">
+                    <img src="//www.petsy.online/cdn/shop/files/Untitled_design_-_2022-02-04T123358.682_144x144_2113e23a-a731-4dc3-926d-16f3fd8e688c.png?v=1644491163&amp;width=144"
+                        alt="" height="50" loading="lazy">
+                </a>
+            </div>
+
+            <div class="grid-item">
+                <a href="https://www.petsy.online/collections/mutt-of-course" target="_blank"
+                    aria-label="https://www.petsy.online/collections/mutt-of-course">
+                    <img src="//www.petsy.online/cdn/shop/files/3_144x144_73017f3d-b5ed-48ae-b9b3-7b111a7b5058.png?v=1644491188&amp;width=144"
+                        alt="" height="50" loading="lazy">
+                </a>
+            </div>
+
+            <div class="grid-item">
+                <a href="https://www.petsy.online/collections/trixie" target="_blank"
+                    aria-label="https://www.petsy.online/collections/trixie">
+                    <img src="//www.petsy.online/cdn/shop/files/4_144x144_d72c0dba-ef3a-41b3-93e8-63981d5ccb0d.png?v=1644491203&amp;width=144"
+                        alt="" height="50" loading="lazy">
+                </a>
+            </div>
+
+            <div class="grid-item">
+                <a href="https://www.petsy.online/collections/kong" target="_blank"
+                    aria-label="https://www.petsy.online/collections/kong">
+                    <img src="//www.petsy.online/cdn/shop/files/1_479f07c6-2864-41f7-8f88-a1d393e3f953.png?v=1646297526&amp;width=320"
+                        alt="" height="50" loading="lazy">
+                </a>
+            </div>
+
+            <div class="grid-item">
+                <a href="https://www.petsy.online/collections/basil" target="_blank"
+                    aria-label="https://www.petsy.online/collections/basil">
+                    <img src="//www.petsy.online/cdn/shop/files/Basil.png?v=1665053381&amp;width=320" alt="" height="50"
+                        loading="lazy">
+                </a>
+            </div>
+
+            <div class="grid-item">
+                <a href="https://www.petsy.online/collections/m-pets" target="_blank"
+                    aria-label="https://www.petsy.online/collections/m-pets">
+                    <img src="//www.petsy.online/cdn/shop/files/M-pets.png?v=1665060323&amp;width=320" alt=""
+                        height="50" loading="lazy">
+                </a>
+            </div>
+
+            <div class="grid-item">
+                <a href="https://www.petsy.online/collections/vivaldis" target="_blank"
+                    aria-label="https://www.petsy.online/collections/vivaldis">
+                    <img src="//www.petsy.online/cdn/shop/files/6_144x144_17a1598c-6027-4338-a2c1-175c0580d213.png?v=1644491218&amp;width=144"
+                        alt="" height="50" loading="lazy">
+                </a>
+            </div>
+
+            <div class="grid-item">
+                <a href="https://www.petsy.online/collections/fidele" target="_blank"
+                    aria-label="https://www.petsy.online/collections/fidele">
+                    <img src="//www.petsy.online/cdn/shop/files/3_71196814-b3b7-46d1-964a-cf763418297a.png?v=1646297612&amp;width=320"
+                        alt="" height="50" loading="lazy">
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-section logo">
+            <img src="/assests/img/logo.png" alt="Company Logo" class="footer-logo">
+        </div>
+        <div class="footer-section services">
+            <h4>Services</h4>
+            <ul>
+                <li><a href="#">Web Design</a></li>
+                <li><a href="#">SEO</a></li>
+                <li><a href="#">Digital Marketing</a></li>
+            </ul>
+        </div>
+        <div class="footer-section contact">
+            <h4>Contact Us</h4>
+            <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+            <p>Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
+        </div>
+    </footer>
+
+    <script src="./assests/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+        
+</body>
+
+</html>
